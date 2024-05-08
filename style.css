@@ -1,0 +1,233 @@
+
+body{
+    width: 1320px;
+    height: 720px;
+    padding: 10%;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 11px;
+}
+
+strong{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+#Horario{
+    position: relative;
+    
+    left: 285px;/*285*/
+    top: 60.75px;/*121.5*/
+    width:693px;
+    height: 370px;
+   
+}
+
+/*Relacionados aos dias da semana*/
+.quadrado{
+    width: 85px;
+    height: 75px;
+    border: 2px solid #118d3b;   
+    border-radius: 10px;  
+    display: inline-block; 
+    margin:0px 27.6px 0px 0px; 
+    border-radius: 10px;
+    margin-bottom: 30px;
+   text-align: center;
+
+}
+
+#verde{
+    background-color: #118d3b;
+    margin: 0px;
+    margin-right:27.61px; 
+    margin-bottom:30px;
+}
+#ultimo{
+    margin-right: 0%;
+}
+
+.DiasSemanais{/*tag p*/
+    margin-top: 12.88px;
+    color: #118d3b;
+    font-weight: 600;
+    font-size: 12;
+    display: inline-block;
+    
+    border-bottom: 2px solid #118d3b;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
+
+.Data{
+    color: #118d3b;
+    font-weight: 600;
+    font-size: 11px;
+    margin-top: 5px;
+}
+#green{
+    color: white;
+    border-bottom-color: white;
+}
+#DataBranca{
+    color:white;
+}
+
+/*Relacionados às aulas*/
+#TextoAula1{/*tag p*/
+    font-weight: 400;
+    padding-left: 20px;
+    color:#9AB69E;
+}
+.TextoAula2e3{
+    font-weight: 400;
+    padding-left:20px;
+    color: black;
+}
+#relogio{
+    position: absolute;
+    top: 28.68px;
+    left: 657.1px;
+}
+.Aulas{
+    position: relative;
+    margin-top: 0px;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-bottom:20px;
+    width: 693px;
+    height: 75px;
+    border: 2px solid #118d3b;
+}
+
+#Cinza{
+    border-color: #9AB69E;
+}
+
+
+/*Menu-Horário e trocar visualização*/
+#Menu-Horario
+{
+    position: relative;
+    left: 285px;/*285*/
+    bottom: 380px;
+    width: 689px;
+    height: 35.5px;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#Trocar-Visualização{
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+}
+#texto{
+    width:143.09px;
+    height:18px;
+}
+
+#Seta-B{
+    margin-left: 5px;;
+    
+}
+#H-geral{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:138.83px;
+    height: 35.5px;  
+    border-radius:8px 0px 0px 8px; 
+    border: 2px solid #9AB69E
+}
+#TextoHG{
+    color: #9AB69E;
+}
+#textoHD{
+    color: #118d3b;
+}
+
+#HD{/*imagens*/
+    margin-left: 10px;
+}
+#HG{
+    margin-left: 10px;
+}
+
+#H-dia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:138.83px;
+    height: 35.5px;
+    border-radius: 0px 8px 8px 0px;
+    border: solid 2px #118d3b;
+}
+
+/*Menu Lateral*/
+.MenuLateral{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position:fixed;
+    left: 0;
+    top:10%;
+    height: 570px;
+    width: 57px;
+    background-color: #118d3b;
+}
+#opcoes{
+    height: 140px;
+}
+.MenuLateral1{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.MenuLateral2{
+    display: block;
+    margin-bottom: 10px;
+}
+#saida{
+    width: 20.83px;
+    height: 40px;
+    padding:2px 0px 2px 0px;
+}
+
+/*Hearder Main*/
+.HearderMain{ 
+    width: 1320px;
+    height: 77px;
+    background-color: #ffffff;
+    border: 1px solid #118d3b;
+    position: fixed;
+    top: 0;
+    left: 0; 
+    
+   
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+
+#notificação{
+    margin-left: 15px;
+}
+#perfil-Notificação{
+    display: inline-flex;
+    align-items: center;
+}
+#Sisgha{
+    margin-top: 19.25px;
+    width: 134.95px;
+    height: 36.62px;
+}
+
