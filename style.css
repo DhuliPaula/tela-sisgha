@@ -1,13 +1,12 @@
-
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 body{
     width: 1320px;
     height: 720px;
     padding: 10%;
-    font-family: poppins;
+    font-family: "Poppins";
     font-weight: 400;
     font-size: 11px;
 }
-
 strong{
     font-size: 12px;
     font-weight: 600;
