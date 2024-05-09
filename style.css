@@ -14,7 +14,7 @@ strong{
 }
 
 
-#Horario{
+.Horario{
     position: relative;
     
     left: 285px;/*285*/
@@ -25,36 +25,38 @@ strong{
 }
 
 /*Relacionados aos dias da semana*/
+.DiasDaSemana{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
 .quadrado{
     width: 85px;
     height: 75px;
     border: 2px solid #118d3b;   
     border-radius: 10px;  
     display: inline-block; 
-    margin:0px 27.6px 0px 0px; 
+    /*margin:0px 27.6px 0px 0px; */
     border-radius: 10px;
     margin-bottom: 30px;
-   text-align: center;
+    text-align: center;
 
 }
 
 #verde{
     background-color: #118d3b;
-    margin: 0px;
-    margin-right:27.61px; 
-    margin-bottom:30px;
 }
 #ultimo{
     margin-right: 0%;
 }
 
 .DiasSemanais{/*tag p*/
-    margin-top: 12.88px;
+    margin-top: 14.88px;
     color: #118d3b;
     font-weight: 600;
     font-size: 12;
     display: inline-block;
-    
     border-bottom: 2px solid #118d3b;
     padding-bottom: 5px;
     margin-bottom: 0px;
@@ -75,7 +77,7 @@ strong{
 }
 
 /*Relacionados às aulas*/
-#TextoAula1{/*tag p*/
+.TextoAula1{ /*tag p*/
     font-weight: 400;
     padding-left: 20px;
     color:#9AB69E;
@@ -85,7 +87,7 @@ strong{
     padding-left:20px;
     color: black;
 }
-#relogio{
+.relogio{
     position: absolute;
     top: 28.68px;
     left: 657.1px;
@@ -107,7 +109,7 @@ strong{
 
 
 /*Menu-Horário e trocar visualização*/
-#Menu-Horario
+.MenuHorario
 {
     position: relative;
     left: 285px;/*285*/
@@ -121,22 +123,22 @@ strong{
     align-items: center;
 
 }
-#Trocar-Visualização{
+.TrocarVisualização{
     font-size: 12px;
     font-weight: 600;
     display: flex;
     flex-direction: row;
 }
-#texto{
+.texto{
     width:143.09px;
     height:18px;
 }
 
-#Seta-B{
+.Seta-B{
     margin-left: 5px;;
     
 }
-#H-geral{
+.Hgeral{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -145,21 +147,21 @@ strong{
     border-radius:8px 0px 0px 8px; 
     border: 2px solid #9AB69E
 }
-#TextoHG{
+.TextoHG{
     color: #9AB69E;
 }
-#textoHD{
+.textoHD{
     color: #118d3b;
 }
 
-#HD{/*imagens*/
+.HD{/*imagens*/
     margin-left: 10px;
 }
-#HG{
+.HG{
     margin-left: 10px;
 }
 
-#H-dia{
+.Hdia{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -182,7 +184,7 @@ strong{
     width: 57px;
     background-color: #118d3b;
 }
-#opcoes{
+.opcoes{
     height: 140px;
 }
 .MenuLateral1{
@@ -195,7 +197,7 @@ strong{
     display: block;
     margin-bottom: 10px;
 }
-#saida{
+.saida{
     width: 20.83px;
     height: 40px;
     padding:2px 0px 2px 0px;
@@ -218,14 +220,14 @@ strong{
     justify-content: space-between;
 }
 
-#notificação{
+.notificação{
     margin-left: 15px;
 }
-#perfil-Notificação{
+.perfilNotificação{
     display: inline-flex;
     align-items: center;
 }
-#Sisgha{
+.Sisgha{
     margin-top: 19.25px;
     width: 134.95px;
     height: 36.62px;
